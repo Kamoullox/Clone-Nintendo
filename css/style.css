@@ -26,6 +26,7 @@ body {
     position: sticky;
     top: 0px;
     z-index: 10;
+    border: 1px solid #bf0010;
 }
 
 .header-container {
@@ -106,10 +107,15 @@ body {
 
 aside {
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 93.5%;
+    background-color: #bf0010;
+
 }
 
 .aside-container {
-    height: 100%;
     width: 88px;
     background-color: #e70012;
     display: flex;
@@ -124,7 +130,7 @@ aside {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid #bf0010;
 }
 
 .item-aside p {
@@ -170,11 +176,8 @@ aside {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     display: block;
-    height: 28px;
-    left: 29px;
+    height: 38px;
     padding: 2px;
-    position: absolute;
-    bottom: 0px;
     width: 28px;
     margin: 0 auto;
     display: flex;
