@@ -189,7 +189,7 @@ _____ __  __          _____ ______  _____
 */
 
 .container {
-    width: 70%;
+    width: 71.2%;
     position: relative;
     left: 89px;
 }
@@ -198,7 +198,7 @@ _____ __  __          _____ ______  _____
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 5px;
-    grid-auto-rows: minmax(1px, 386px);
+    grid-auto-rows: auto;
     padding: 5px;
 }
 
@@ -206,6 +206,16 @@ _____ __  __          _____ ______  _____
     border-radius: 5px;
     background-position: center;
     background-size: cover;
+    height: 23vw;
+    transition: transform 0.3s;
+}
+
+.allImage:hover {
+    transform: translate(0px, -0.29vw)
+}
+
+.twoRow {
+    height: 46.3vw;
 }
 
 .kirby {
@@ -314,5 +324,9 @@ _____ __  __          _____ ______  _____
     background-image: url("/images/MyNintendo.jpg");
     grid-column: 1 / 7;
     grid-row: 9 / 11;
-    height: 584px;
+    height: 34vw;
+}
+
+.crossing {
+    height: 17vw;
 }
