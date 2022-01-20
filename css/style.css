@@ -354,7 +354,7 @@ _____ __  __          _____ ______  _____
     margin-top: 5px;
 }
 
-.lastNews {
+.section-title {
     /* height: 58px; */
     background: #fff;
     margin-bottom: 4px;
@@ -362,7 +362,7 @@ _____ __  __          _____ ______  _____
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.lastNews p {
+.section-title p {
     border-left: 4px solid #f4f4f4;
     font-size: 1.143rem;
     padding: 8px;
@@ -395,7 +395,8 @@ _____ __  __          _____ ______  _____
     margin-bottom: 4px;
 }
 
-.textRight-container .date {
+.textRight-container .date,
+.textRight-container .descriptionSoon {
     font-size: 11px;
     color: gray;
     margin-bottom: 8px;
@@ -404,4 +405,37 @@ _____ __  __          _____ ______  _____
 .textRight-container .description {
     font-size: .9286rem;
     color: #666666;
+}
+
+.moreInfos {
+    /* height: 58px; */
+    background: #fff;
+    margin-bottom: 4px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+.moreInfos p {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.svgChevron {
+    height: 10px;
+    margin-left: 5px;
+}
+
+.svgChevron svg {
+    height: 100%;
+}
+
+.red {
+    color: #df3644;
+}
+
+.red svg {
+    fill: #df3644
 }
