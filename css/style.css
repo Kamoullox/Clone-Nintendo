@@ -188,18 +188,14 @@ _____ __  __          _____ ______  _____
                                            
 */
 
-.container {
-    width: 71.2%;
-    position: relative;
-    left: 89px;
-}
-
 .container-image {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 5px;
     grid-auto-rows: auto;
     padding: 5px;
+    width: 71.2%;
+    margin-left: 89px;
 }
 
 .allImage {
@@ -329,4 +325,83 @@ _____ __  __          _____ ______  _____
 
 .crossing {
     height: 17vw;
+}
+
+
+/* 
+      _       _     _               _     _      
+     (_)     | |   | |             (_)   | |     
+ _ __ _  __ _| |__ | |_    __ _ ___ _  __| | ___ 
+| '__| |/ _` | '_ \| __|  / _` / __| |/ _` |/ _ \
+| |  | | (_| | | | | |_  | (_| \__ \ | (_| |  __/
+|_|  |_|\__, |_| |_|\__|  \__,_|___/_|\__,_|\___|
+         __/ |                                   
+        |___/                                     
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f4f4;
+}
+
+.right-aside {
+    width: 22.3vw;
+}
+
+.right-aside__container {
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+
+.lastNews {
+    /* height: 58px; */
+    background: #fff;
+    margin-bottom: 4px;
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lastNews p {
+    border-left: 4px solid #f4f4f4;
+    font-size: 1.143rem;
+    padding: 8px;
+}
+
+.card-news {
+    background: #fff;
+    margin-bottom: 4px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-container {
+    width: 12.5vw;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.textRight-container {
+    padding: 2px 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 21vw;
+}
+
+.textRight-container a h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4px;
+}
+
+.textRight-container .date {
+    font-size: 11px;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.textRight-container .description {
+    font-size: .9286rem;
+    color: #666666;
 }
