@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    background-color: #f4f4f4;
+}
+
 
 /*
  _   _             _                
@@ -342,7 +346,6 @@ _____ __  __          _____ ______  _____
 .container {
     display: flex;
     flex-direction: row;
-    background-color: #f4f4f4;
 }
 
 .right-aside {
@@ -438,4 +441,63 @@ _____ __  __          _____ ______  _____
 
 .red svg {
     fill: #df3644
+}
+
+
+/* ----------------------------------Footer------------------------ */
+
+footer {
+    width: 71%;
+    margin-left: 95px;
+}
+
+.social {
+    height: 57px;
+    width: 100%;
+    background-color: black;
+    margin: 3vw 0;
+    grid-column: 1 / 7;
+    grid-row: 11;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social svg {
+    fill: #fff;
+}
+
+.socialButton {
+    padding: 12px 48px;
+    border-radius: 4px;
+    height: 11px;
+    display: flex;
+    align-items: center;
+    padding-right: 79px;
+}
+
+.socialButton-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook {
+    background-color: #3b5999;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acef;
+}
+
+.facebook-image {
+    height: 13px;
+}
+
+.shareTexte p {
+    font-size: large;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;
 }
